@@ -1,0 +1,2 @@
+class WhitetailDeer < ApplicationRecord
+end

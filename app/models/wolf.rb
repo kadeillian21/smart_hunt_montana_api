@@ -1,0 +1,2 @@
+class Wolf < ApplicationRecord
+end

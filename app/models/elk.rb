@@ -1,0 +1,2 @@
+class Elk < ApplicationRecord
+end

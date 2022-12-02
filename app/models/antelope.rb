@@ -1,0 +1,2 @@
+class Antelope < ApplicationRecord
+end

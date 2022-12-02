@@ -1,0 +1,2 @@
+class MountainLion < ApplicationRecord
+end

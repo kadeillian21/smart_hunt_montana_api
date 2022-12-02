@@ -1,0 +1,2 @@
+class BlackBear < ApplicationRecord
+end

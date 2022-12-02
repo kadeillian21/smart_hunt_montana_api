@@ -1,0 +1,2 @@
+class MuleDeer < ApplicationRecord
+end
