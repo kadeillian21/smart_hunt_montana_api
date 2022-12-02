@@ -1,0 +1,2 @@
+class MuleDeersController < ApplicationController
+end

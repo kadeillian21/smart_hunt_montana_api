@@ -1,0 +1,2 @@
+class BlackBearsController < ApplicationController
+end

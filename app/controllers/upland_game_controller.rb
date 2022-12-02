@@ -1,0 +1,2 @@
+class UplandGameController < ApplicationController
+end

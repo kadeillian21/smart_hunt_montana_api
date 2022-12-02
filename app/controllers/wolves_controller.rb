@@ -1,0 +1,2 @@
+class WolvesController < ApplicationController
+end

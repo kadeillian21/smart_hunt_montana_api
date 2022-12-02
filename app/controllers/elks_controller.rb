@@ -1,0 +1,2 @@
+class ElksController < ApplicationController
+end

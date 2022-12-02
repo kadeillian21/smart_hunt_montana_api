@@ -1,0 +1,2 @@
+class AntelopesController < ApplicationController
+end

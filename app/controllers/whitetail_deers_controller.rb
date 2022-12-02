@@ -1,0 +1,2 @@
+class WhitetailDeersController < ApplicationController
+end
