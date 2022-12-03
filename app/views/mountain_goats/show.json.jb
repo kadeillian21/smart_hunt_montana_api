@@ -1,5 +1,22 @@
 {
   id: @mountain_goat.id,
   created_at: @mountain_goat.created_at,
-  updated_at: @mountain_goat.updated_at
+  updated_at: @mountain_goat.updated_at,
+  license_year: @mountain_goat.license_year,
+  district: @mountain_goat.district,
+  residency: @mountain_goat.residency,
+  hunters: @mountain_goat.hunters,
+  days: @mountain_goat.days,
+  days_per_hunter: @mountain_goat.days_per_hunter,
+  total_harvest: @mountain_goat.total_harvest,
+  billies: @mountain_goat.billies,
+  nannies: @mountain_goat.nannies,
+  kids: @mountain_goat.kids,
+  location: @mountain_goat.location,
+  district_square_mileage: @mountain_goat.district_square_mileage,
+  public_land_percentage: @mountain_goat.public_land_percentage,
+  harvested_billies_per_square_mile: @mountain_goat.harvested_billies_per_square_mile,
+  harvested_nannies_per_square_mile: @mountain_goat.harvested_nannies_per_square_mile,
+  harvested_kids_per_square_mile: @mountain_goat.harvested_kids_per_square_mile,
+  total_harvest_per_square_mile: @mountain_goat.total_harvest_per_square_mile
 }

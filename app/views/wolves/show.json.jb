@@ -1,5 +1,15 @@
 {
   id: @wolf.id,
   created_at: @wolf.created_at,
-  updated_at: @wolf.updated_at
+  updated_at: @wolf.updated_at,
+  license_year: @wolf.license_year,
+  region: @wolf.region,
+  hunted: @wolf.hunted,
+  trapped: @wolf.trapped,
+  total_harvest: @wolf.total_harvest,
+  location: @wolf.location,
+  district_square_mileage: @wolf.district_square_mileage,
+  total_hunted_harvest_per_square_mile: @wolf.total_hunted_harvest_per_square_mile,
+  total_trapped_harvest_per_square_mile: @wolf.total_trapped_harvest_per_square_mile,
+  total_harvest_per_square_mile: @wolf.total_harvest_per_square_mile
 }

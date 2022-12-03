@@ -1,5 +1,22 @@
 {
   id: @antelope.id,
   created_at: @antelope.created_at,
-  updated_at: @antelope.updated_at
+  updated_at: @antelope.updated_at,
+  license_year: @antelope.license_year,
+  district: @antelope.district,
+  residency: @antelope.residency,
+  hunters: @antelope.hunters,
+  days: @antelope.days,
+  days_per_hunter: @antelope.days_per_hunter,
+  total_harvest: @antelope.total_harvest,
+  bucks: @antelope.bucks,
+  does: @antelope.does,
+  fawns: @antelope.fawns,
+  location: @antelope.location,
+  district_square_mileage: @antelope.district_square_mileage,
+  public_land_percentage: @antelope.public_land_percentage,
+  harvested_bucks_per_square_mile: @antelope.harvested_bucks_per_square_mile,
+  harvested_does_per_square_mile: @antelope.harvested_does_per_square_mile,
+  harvested_fawns_per_square_mile: @antelope.harvested_fawns_per_square_mile,
+  total_harvest_per_square_mile: @antelope.total_harvest_per_square_mile
 }

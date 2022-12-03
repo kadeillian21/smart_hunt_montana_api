@@ -1,5 +1,18 @@
 {
   id: @black_bear.id,
   created_at: @black_bear.created_at,
-  updated_at: @black_bear.updated_at
+  updated_at: @black_bear.updated_at,
+  license_year: @black_bear.license_year,
+  season: @black_bear.season,
+  district: @black_bear.district,
+  residency: @black_bear.residency,
+  female: @black_bear.female,
+  male: @black_bear.male,
+  total_harvest: @black_bear.total_harvest,
+  location: @black_bear.location,
+  district_square_mileage: @black_bear.district_square_mileage,
+  public_land_percentage: @black_bear.public_land_percentage,
+  harvested_males_per_square_mile: @black_bear.harvested_males_per_square_mile,
+  harvested_female_per_square_mile: @black_bear.harvested_female_per_square_mile,
+  total_harvest_per_square_mile: @black_bear.total_harvest_per_square_mile
 }
