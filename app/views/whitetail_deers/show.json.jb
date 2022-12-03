@@ -1,0 +1,5 @@
+{
+  id: @whitetail_deer.id,
+  created_at: @whitetail_deer.created_at,
+  updated_at: @whitetail_deer.updated_at
+}

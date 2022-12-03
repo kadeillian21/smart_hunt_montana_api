@@ -1,0 +1,5 @@
+{
+  id: @wolf.id,
+  created_at: @wolf.created_at,
+  updated_at: @wolf.updated_at
+}

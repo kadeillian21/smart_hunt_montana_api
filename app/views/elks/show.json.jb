@@ -1,0 +1,5 @@
+{
+  id: @elk.id,
+  created_at: @elk.created_at,
+  updated_at: @elk.updated_at
+}

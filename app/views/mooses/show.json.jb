@@ -1,0 +1,5 @@
+{
+  id: @moose.id,
+  created_at: @moose.created_at,
+  updated_at: @moose.updated_at
+}

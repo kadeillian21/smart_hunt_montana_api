@@ -1,0 +1,5 @@
+{
+  id: @turkey.id,
+  created_at: @turkey.created_at,
+  updated_at: @turkey.updated_at
+}

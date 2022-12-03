@@ -1,0 +1,5 @@
+{
+  id: @black_bear.id,
+  created_at: @black_bear.created_at,
+  updated_at: @black_bear.updated_at
+}

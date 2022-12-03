@@ -1,0 +1,5 @@
+{
+  id: @antelope.id,
+  created_at: @antelope.created_at,
+  updated_at: @antelope.updated_at
+}

@@ -1,0 +1,5 @@
+{
+  id: @upland_game.id,
+  created_at: @upland_game.created_at,
+  updated_at: @upland_game.updated_at
+}

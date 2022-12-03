@@ -1,11 +1,11 @@
 class MuleDeersController < ApplicationController
   def index
-    mule_deers = MuleDeer.all
-    render json: mule_deers
+    @mule_deers = MuleDeer.all
+    render template: "mule_deers/index"
   end
 
   def show
-    mule_deer = MuleDeer.find_by(id: params[:id])
-    render json: mule_deer
+    @mule_deer = MuleDeer.find_by(id: params[:id])
+    render template: "mule_deers/show"
   end
 end

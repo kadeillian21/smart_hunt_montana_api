@@ -1,0 +1,5 @@
+{
+  id: @mule_deer.id,
+  created_at: @mule_deer.created_at,
+  updated_at: @mule_deer.updated_at
+}

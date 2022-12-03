@@ -1,0 +1,5 @@
+{
+  id: @mountain_lion.id,
+  created_at: @mountain_lion.created_at,
+  updated_at: @mountain_lion.updated_at
+}

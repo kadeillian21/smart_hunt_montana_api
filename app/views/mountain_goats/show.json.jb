@@ -1,0 +1,5 @@
+{
+  id: @mountain_goat.id,
+  created_at: @mountain_goat.created_at,
+  updated_at: @mountain_goat.updated_at
+}
