@@ -1,6 +1,7 @@
 class BlackBearsController < ApplicationController
   def index
     @black_bears = BlackBear.all
+    
     render template: "black_bears/index"
   end
 

@@ -8,4 +8,4 @@ class AntelopesController < ApplicationController
     @antelope = Antelope.find_by(id: params[:id])
     render template: "antelopes/show"
   end
-ends
+end
