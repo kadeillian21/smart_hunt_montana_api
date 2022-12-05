@@ -10,13 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_12_02_205139) do
+ActiveRecord::Schema[7.0].define(version: 2022_12_05_230322) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "antelopes", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.integer "license_year"
     t.string "district"
     t.string "residency"
@@ -37,8 +35,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_02_205139) do
   end
 
   create_table "black_bears", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.integer "license_year"
     t.string "season"
     t.string "district"
@@ -55,8 +51,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_02_205139) do
   end
 
   create_table "elks", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.integer "license_year"
     t.string "district"
     t.string "residency"
@@ -87,8 +81,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_02_205139) do
   end
 
   create_table "mooses", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.integer "license_year"
     t.string "district"
     t.string "residency"
@@ -109,8 +101,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_02_205139) do
   end
 
   create_table "mountain_goats", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.integer "license_year"
     t.string "district"
     t.string "residency"
@@ -131,8 +121,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_02_205139) do
   end
 
   create_table "mountain_lions", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.integer "license_year"
     t.string "district"
     t.string "residency"
@@ -148,8 +136,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_02_205139) do
   end
 
   create_table "mule_deers", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.integer "license_year"
     t.string "district"
     t.string "deer_species"
@@ -178,8 +164,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_02_205139) do
   end
 
   create_table "sheep", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.integer "license_year"
     t.string "district"
     t.string "residency"
@@ -200,8 +184,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_02_205139) do
   end
 
   create_table "turkeys", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.integer "license_year"
     t.string "district"
     t.string "residency"
@@ -215,8 +197,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_02_205139) do
   end
 
   create_table "upland_games", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.integer "license_year"
     t.string "district"
     t.string "residency"
@@ -230,8 +210,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_02_205139) do
   end
 
   create_table "whitetail_deers", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.integer "license_year"
     t.string "district"
     t.string "deer_species"
@@ -260,8 +238,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_12_02_205139) do
   end
 
   create_table "wolves", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.integer "license_year"
     t.string "region"
     t.integer "hunted"
