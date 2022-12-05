@@ -1,11 +1,11 @@
 class MountainLionsController < ApplicationController
   def index
     @mountain_lions = MountainLion.all
-    render template: "mountain_lions/index"
+    render json: @mountain_lions
   end
 
   def show
     @mountain_lion = MountainLion.find_by(id: params[:id])
-    render template: "mountain_lions/show"
+    render json: @mountain_lion
   end
 end

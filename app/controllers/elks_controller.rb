@@ -1,11 +1,11 @@
 class ElksController < ApplicationController
   def index
     @elks = Elk.all
-    render template: "elks/index"
+    render json: @elks
   end
 
   def show
     @elk = Elk.find_by(id: params[:id])
-    render template: "elks/show"
+    render json: @elk
   end
 end

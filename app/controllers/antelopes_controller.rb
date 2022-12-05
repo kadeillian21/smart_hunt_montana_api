@@ -1,11 +1,11 @@
 class AntelopesController < ApplicationController
   def index
     @antelopes = Antelope.all
-    render template: "antelopes/index"
+    render json: @antelopes
   end
 
   def show
     @antelope = Antelope.find_by(id: params[:id])
-    render template: "antelopes/show"
+    render json: @antelopes
   end
 end

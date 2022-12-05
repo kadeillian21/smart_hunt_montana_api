@@ -1,12 +1,11 @@
 class BlackBearsController < ApplicationController
   def index
     @black_bears = BlackBear.all
-    
-    render template: "black_bears/index"
+    render json: @black_bears
   end
 
   def show
     @black_bear = BlackBear.find_by(id: params[:id])
-    render template: "black_bears/show"
+    render json: @black_bear
   end
 end

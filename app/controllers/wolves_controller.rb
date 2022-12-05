@@ -1,11 +1,11 @@
 class WolvesController < ApplicationController
   def index
     @wolves = Wolf.all
-    render template: "wolves/index"
+    render json: @wolves
   end
 
   def show
     @wolf = Wolf.find_by(id: params[:id])
-    render template: "wolves/show"
+    render json: @wolf
   end
 end
