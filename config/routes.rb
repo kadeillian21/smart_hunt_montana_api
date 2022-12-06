@@ -15,4 +15,5 @@ Rails.application.routes.draw do
   resources :upland_game, except: [:create, :update, :destroy]
   resources :whitetail_deers, except: [:create, :update, :destroy]
   resources :wolves, except: [:create, :update, :destroy]
+  post "/sessions" => "sessions#create"
 end
